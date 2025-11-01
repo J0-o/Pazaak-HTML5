@@ -1,0 +1,42 @@
+body {
+    background: #000;
+    color: #0f0;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #console {
+    flex: 1;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    border-bottom: 1px solid #0f0;
+    padding: 1em;
+  }
+  
+  #logPane {
+    flex: 0.5;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    border-top: 1px solid #444;
+    color: #999;
+    padding: 0.5em 1em;
+  }
+  
+  #cmd {
+    width: 100%;
+    background: #000;
+    color: #0f0;
+    border: none;
+    font: inherit;
+    padding: 0.5em;
+    border-top: 1px solid #0f0;
+    outline: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
