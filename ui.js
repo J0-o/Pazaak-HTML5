@@ -1,5 +1,5 @@
 // =======================
-// Pazaak UI Controller (Incremental Refactor)
+// Pazaak UI Controller
 // =======================
 
 const ui = {
